@@ -1,5 +1,5 @@
    ```lua
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/semze/LITS-leaderboard-destroyer/refs/heads/main/Launch-into-space.lua"))()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/semze/launch-into-space-script/refs/heads/main/Launch-into-space.lua"))()
    ```
 
 # LITS Leaderboard Destroyer
@@ -20,7 +20,7 @@ This script is for Launch Into Space. Honestly, I made this because I was bored 
 1. Open your Roblox executor (any decent one will do).
 2. Copy and paste this loadstring into your executor:
    ```lua
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/semze/LITS-leaderboard-destroyer/refs/heads/main/Launch-into-space.lua"))()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/semze/launch-into-space-script/refs/heads/main/Launch-into-space.lua"))()
    ```
 3. Execute the script.
 4. Use the buttons to spam rebirths or hatch eggs.
