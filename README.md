@@ -1,3 +1,7 @@
+   ```lua
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/semze/LITS-leaderboard-destroyer/refs/heads/main/Launch-into-space.lua"))()
+   ```
+
 # LITS Leaderboard Destroyer
 
 This script is for Launch Into Space. Honestly, I made this because I was bored and thought Why not mess with the leaderboard. It's simple, fun, and gets the job done.
