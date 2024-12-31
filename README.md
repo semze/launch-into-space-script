@@ -4,14 +4,13 @@
   
 
 ## How to Use
-1. Open your preferred Roblox executor. ![image](https://github.com/user-attachments/assets/9891219a-11dd-4fd4-8911-e943c796b326)
+1. Open your preferred Roblox executor.
 2. Copy and paste the following loadstring into your executor:
    ```lua
    loadstring(game:HttpGet("https://raw.githubusercontent.com/semze/LITS-leaderboard-destroyer/refs/heads/main/Launch-into-space.lua"))()
    ```
 3. Execute the script.
 4. And start spamming shit.
-![image](https://github.com/user-attachments/assets/0a17cce1-55e3-4e1b-8592-d908f186cbeb)
 
 ## Disclaimer
 - This script is provided "as is".
