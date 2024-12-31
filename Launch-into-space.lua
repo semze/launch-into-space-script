@@ -1,24 +1,21 @@
--- Setup
 local replicatedStorage = game:GetService("ReplicatedStorage")
 local playerGui = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 local monetisationService = replicatedStorage:WaitForChild("Packages"):WaitForChild("_Index"):WaitForChild("sleitnick_knit@1.6.0"):WaitForChild("knit"):WaitForChild("Services"):WaitForChild("MonetisationService"):WaitForChild("RF"):WaitForChild("PurchaseWithGems")
 local petsService = replicatedStorage:WaitForChild("Packages"):WaitForChild("_Index"):WaitForChild("sleitnick_knit@1.6.0"):WaitForChild("knit"):WaitForChild("Services"):WaitForChild("PetsService"):WaitForChild("RF"):WaitForChild("HatchEgg")
 
--- Variables
 local isSpamming = false
 local isHatching = false
 local spamLoop = nil
 local hatchLoop = nil
 local isMenuVisible = true
 
--- Create ScreenGui and Frame
 local screenGui = Instance.new("ScreenGui")
 screenGui.Parent = playerGui
 
 local mainFrame = Instance.new("Frame")
 mainFrame.Size = UDim2.new(0, 400, 0, 200)
 mainFrame.Position = UDim2.new(0.5, -200, 0.5, -100)
-mainFrame.BackgroundColor3 = Color3.fromRGB(50, 50, 50) -- Slight gray background
+mainFrame.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
 mainFrame.Parent = screenGui
 
 -- Add "MADE BY SEMODGE" Label
@@ -26,7 +23,7 @@ local madeByLabel = Instance.new("TextLabel")
 madeByLabel.Size = UDim2.new(0, 200, 0, 20)
 madeByLabel.Position = UDim2.new(0, 5, 0, 5)
 madeByLabel.Text = "MADE BY SEMODGE"
-madeByLabel.TextColor3 = Color3.fromRGB(0, 255, 255) -- Cyan text
+madeByLabel.TextColor3 = Color3.fromRGB(0, 255, 255)
 madeByLabel.TextSize = 17 -- Reduced size
 madeByLabel.Font = Enum.Font.LuckiestGuy
 madeByLabel.BackgroundTransparency = 1
@@ -46,8 +43,8 @@ local uiGradient = Instance.new("UIGradient")
 uiGradient.Parent = mainFrame
 uiGradient.Rotation = 45
 uiGradient.Color = ColorSequence.new({
-    ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 0, 255)), -- Neon Pink
-    ColorSequenceKeypoint.new(1, Color3.fromRGB(0, 255, 255)) -- Cyan
+    ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 0, 255)),
+    ColorSequenceKeypoint.new(1, Color3.fromRGB(0, 255, 255))
 })
 
 -- UI Corner
@@ -60,10 +57,10 @@ local spamButton = Instance.new("TextButton")
 spamButton.Size = UDim2.new(0, 200, 0, 50)
 spamButton.Position = UDim2.new(0.5, -100, 0.5, -75)
 spamButton.Text = "Start Spamming"
-spamButton.TextColor3 = Color3.fromRGB(0, 255, 255) -- Cyan text
+spamButton.TextColor3 = Color3.fromRGB(0, 255, 255)
 spamButton.TextSize = 23
 spamButton.Font = Enum.Font.LuckiestGuy
-spamButton.BackgroundColor3 = Color3.fromRGB(80, 80, 80) -- Slight gray background
+spamButton.BackgroundColor3 = Color3.fromRGB(80, 80, 80) 
 spamButton.Parent = mainFrame
 
 -- UI Corner for Spamming Button
@@ -78,7 +75,7 @@ hatchButton.Text = "Start Hatching"
 hatchButton.TextColor3 = Color3.fromRGB(0, 255, 255) -- Cyan text
 hatchButton.TextSize = 23
 hatchButton.Font = Enum.Font.LuckiestGuy
-hatchButton.BackgroundColor3 = Color3.fromRGB(80, 80, 80) -- Slight gray background
+hatchButton.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
 hatchButton.Parent = mainFrame
 
 -- UI Corner for Hatching Button
@@ -90,10 +87,10 @@ local hideButton = Instance.new("TextButton")
 hideButton.Size = UDim2.new(0, 40, 0, 40)
 hideButton.Position = UDim2.new(1, -50, 0, 0)
 hideButton.Text = "HIDE"
-hideButton.TextColor3 = Color3.fromRGB(0, 255, 255) -- Cyan text
+hideButton.TextColor3 = Color3.fromRGB(0, 255, 255)
 hideButton.TextSize = 23
 hideButton.Font = Enum.Font.LuckiestGuy
-hideButton.BackgroundColor3 = Color3.fromRGB(80, 80, 80) -- Slight gray background
+hideButton.BackgroundColor3 = Color3.fromRGB(80, 80, 80) 
 hideButton.Parent = mainFrame
 
 -- UI Corner for Hide Button
