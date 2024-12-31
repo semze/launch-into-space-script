@@ -19,3 +19,11 @@
 
 ## Support
 For issues or questions, feel free to open an [issue](https://github.com/semze/LITS-leaderboard-destroyer/issues) in this repository.
+
+
+
+
+#Screenshots.
+- UI ![image](https://github.com/user-attachments/assets/879ded72-c168-42f6-9171-db7a92bfdfc7)
+- Power gained. ![image](https://github.com/user-attachments/assets/6c3bc22d-4ab1-4ea9-9bf0-fba370f0e685)
+- rebirths gained. ![image](https://github.com/user-attachments/assets/80e2d2de-1807-4e5b-9aa3-4df560c28014)
