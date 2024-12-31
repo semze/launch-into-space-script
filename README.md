@@ -1,5 +1,6 @@
 ## Please note
 - when you press the click the "start spamming" button, its using your actual gems to start rebirthing. so you are losing gems.
+![image](https://github.com/user-attachments/assets/b423cf15-a9a3-4421-a4bf-bfe7b54a96e5)
 
 ## How to Use
 1. Open your preferred Roblox executor.
