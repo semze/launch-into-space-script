@@ -30,9 +30,9 @@ This script is for Launch Into Space. Honestly, I made this because I was bored 
 Got questions or something’s broken? Open an [issue](https://github.com/semze/LITS-leaderboard-destroyer/issues) on the repo.
 
 ## Screenshots
-- **UI**:
+
  ![image](https://github.com/user-attachments/assets/879ded72-c168-42f6-9171-db7a92bfdfc7)
-- **Power Gained**:
+
  ![image](https://github.com/user-attachments/assets/6c3bc22d-4ab1-4ea9-9bf0-fba370f0e685)
-- **Rebirths Gained**: 
+
 ![image](https://github.com/user-attachments/assets/80e2d2de-1807-4e5b-9aa3-4df560c28014)
