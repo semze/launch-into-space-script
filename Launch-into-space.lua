@@ -105,8 +105,10 @@ local function startSpamming()
         isSpamming = true
         spamButton.Text = "Stop Spamming"
         spamLoop = game:GetService("RunService").Heartbeat:Connect(function()
-            local args = {"SuperSkipRebirth3", false}
-            monetisationService:InvokeServer(unpack(args))
+            for i = 1, 9000 do -- Increase the number of executions per frame
+                local args = {"SuperSkipRebirth3", false}
+                monetisationService:InvokeServer(unpack(args))
+            end
         end)
     else
         isSpamming = false
@@ -117,6 +119,7 @@ local function startSpamming()
         end
     end
 end
+
 
 -- Start/Stop Hatching
 local function startHatching()
